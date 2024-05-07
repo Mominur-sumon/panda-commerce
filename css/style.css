@@ -14,9 +14,52 @@
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom #FF589B 0%, #FF136F 100%);
-    color: white;
+    color: rgb(40, 235, 23);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer ;
+}
+.cat1, .cat2, .cat3{
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px, 30px;
+}
+
+.cat1{
+    background-color: orange;
+ 
+}
+.cat2{
+    background-color: orchid;
+   
+}
+.cat3{
+    background-color: blue;
+
+}
+
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray;
+
+
+}
+
+.subscribe{
+    height: 500px;
+    padding: auto;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
 }
